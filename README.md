@@ -9,4 +9,4 @@ Plot the line chart from csv files
 ## Usage
 1. git clone https://github.com/KaiWenyy/csv-line-chart.git
 2. edit config.yaml
-3. python run.py --csvfil FILE_NAME
+3. python run.py --csvfile FILE_NAME
