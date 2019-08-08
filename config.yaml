@@ -1,0 +1,60 @@
+#csvfile_name:
+#  name1:
+
+# color list
+#‘b’  blue
+#‘g’  green
+#‘r’  red
+#‘c’  cyan
+#‘m’  magenta
+#‘y’  yellow
+#‘k’  black
+#‘w’  white
+
+outfile:
+
+data_size: 600
+data_scope: [1,600]
+
+title: CINEBENCH_CPU_TEST
+
+chart: line 
+
+x_axis:
+  label: time(time step)
+
+array:
+  array1:
+    name: Power-Package Power
+    data_name: Power-Package Power(Watts)
+    type:
+      color: b
+      linestyle: '-'
+      marker: ''
+      linewidth: 0.5
+    y_axis:
+      label: degreeC/watts
+
+  array2:
+    name: CPU0-DTS
+    data_name: CPU0-DTS(Degree C)
+    type:
+      color: g
+      linestyle: '-'
+      marker: ''
+      linewidth: 0.5
+    y_axis:
+      label: degreeC/watts
+
+  array3:
+    name: CPU0-Frequency
+    data_name: CPU0-Frequency(MHz)
+    type:
+      color: r
+      linestyle: '-'
+      marker: ''
+      linewidth: 0.5
+    y_axis:
+      label: MHz
+
+
